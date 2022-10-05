@@ -1,0 +1,26 @@
+h1{
+    color:#f3f3f3;
+
+}
+
+h2{
+    color:chocolate
+}
+
+table{
+    border: 2px solid #b4b3b3;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th{
+    color: rgb(226, 125, 43);
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        background-color: #000000;
+        color: #F3f3f3;
+}
