@@ -9,24 +9,17 @@ body {
   min-height: 100vh;
 }
 
-.header_professional-image-container{
-
+.header {
+  margin-bottom: 10%;
 }
 
-footer img {
-  height: 50px;
-  padding: 15px;
-}
+
 
 p {
   font-family: "Open Sans", sans-serif;
   color: #f3f3f3;
 }
 
-/*ul {
-  list-style-type: none;
-}
-*/
 
 .article_title {
   font-family: "Open Sans", sans-serif;
@@ -38,19 +31,22 @@ h2 {
   color: #f3f3f3;
 }
 
-.footer {
+footer{
   display: flex;
   gap: 1rem;
   justify-content: center;
 }
 
-.footer__link-icon-container {
+.icon{
   display: flex;
   transition: all 0.5s;
   max-width: 2rem;
-  align-items: stretch;
 }
 
-.footer__link-icon-container:hover {
+.icon:hover{
   transform: scale(1.25);
+}
+
+.icon-link{
+  width:100%
 }
