@@ -13,13 +13,14 @@ body {
   margin-bottom: 10%;
 }
 
-
+.header_professional-image-container {
+  border-radius: 50%;
+}
 
 p {
   font-family: "Open Sans", sans-serif;
   color: #f3f3f3;
 }
-
 
 .article_title {
   font-family: "Open Sans", sans-serif;
@@ -31,22 +32,22 @@ h2 {
   color: #f3f3f3;
 }
 
-footer{
+footer {
   display: flex;
   gap: 1rem;
   justify-content: center;
 }
 
-.icon{
+.icon {
   display: flex;
   transition: all 0.5s;
   max-width: 2rem;
 }
 
-.icon:hover{
+.icon:hover {
   transform: scale(1.25);
 }
 
-.icon-link{
-  width:100%
+.icon-link {
+  width: 100%;
 }
