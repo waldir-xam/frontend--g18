@@ -1,0 +1,30 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: blue;
+}
+.section-principal{
+    display: flex;
+}
+.section-principal div{
+    width: 200px;
+    height: 200px;
+    border:solid;
+}
+.box-one{
+    background-color: red;
+}
+.box-two{
+    background-color: chartreuse;
+}
+.box-tree{
+    background-color: aqua;
+}
+
+@media only screen and (max-width:480px){
+    body{
+        background-color: blueviolet;
+    }
+}
