@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: grid;
+    gap:20px;
+    grid-template-columns:auto auto auto auto;
+    grid: template rows 100px;
+}
+
+.container div{
+    background-color: brown;
+    padding: 1em;
+}
+.container div:hover{
+    border: 1px solid yellow;
+}
+.item1{
+    background-color: aqua;
+    height: 200px;
+    grid-column: 1/3;
+}

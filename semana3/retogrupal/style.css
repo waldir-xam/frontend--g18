@@ -1,0 +1,144 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  /*font-family: "Raleway", sans-serif;*/
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.header figure {
+  justify-content: center;
+}
+.header figure img {
+  height: 50px;
+}
+.header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  position: relative;
+  text-align: center;
+  padding: 20px 10px;
+  line-height: 24px;
+  font-size: 14px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  padding: 15px;
+}
+nav ul li a:hover {
+  color: #00cf95;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  padding: 20px 10px;
+  line-height: 24px;
+  font-size: 14px;
+}
+nav ul li a:hover::before {
+  transform: translateX(-50%);
+  border-radius: 100%;
+  position: absolute;
+  background: #00cf95;
+  bottom: 5px;
+  height: 5px;
+  content: "";
+  width: 5px;
+  left: 54%;
+}
+nav ul li a:active {
+  color: #6d0ad3;
+  cursor: pointer;
+  text-decoration: underline 2px;
+}
+.subrayado {
+  color: #6d0ad3;
+  cursor: pointer;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  width: fit-content;
+}
+.banner {
+  width: 100%;
+  padding: 75px 50px 75px 50px;
+  display: flex;
+}
+.banner-pt1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.banner-pt1 h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+.banner-pt1 h1,
+h2,
+h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.banner-pt1 h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+}
+.banner-pt1 h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 60px;
+}
+.banner-pt1 p{
+    border-left: 4px solid #80E7CA;
+    height:fit-content;
+    float: left;
+    padding-left: 10px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.banner-pt2,
+.banner-pt3 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.portfolio {
+  width: 100%;
+  padding: 75px 50px 75px 50px;
+  display: flex;
+}
+.servicios {
+  width: 100%;
+  padding: 75px 50px 75px 50px;
+  display: flex;
+}
+.blog {
+  width: 100%;
+  padding: 75px 50px 75px 50px;
+  display: flex;
+}
+.contacto {
+  width: 100%;
+  padding: 75px 50px 75px 50px;
+  display: flex;
+}
