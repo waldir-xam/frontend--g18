@@ -116,16 +116,36 @@ h3 {
     width: 80%;
     margin-bottom: 25px;
 }
+.btn-banner{
+    width: 200px;
+    color:#fff;
+    background-color: #6D0AD3;
+    padding: 20px 20px ;
+}
+
 .banner-pt2,
 .banner-pt3 {
   display: flex;
   flex-direction: column;
   width: 25%;
+  justify-content: center;
+}
+.banner-pt3 img{
+    width: 75px;
+    
 }
 .portfolio {
   width: 100%;
   padding: 75px 50px 75px 50px;
   display: flex;
+  color:#0098EF;
+  font-size: 22px;
+}
+.img-portafolio{
+    padding-top: 100px;
+}
+.img-portafolio img{
+    padding: 5px;
 }
 .servicios {
   width: 100%;
