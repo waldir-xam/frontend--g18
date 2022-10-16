@@ -122,6 +122,13 @@ h3 {
     background-color: #6D0AD3;
     padding: 20px 20px ;
 }
+.banner-pt1 span{
+
+}
+.banner-pt1 span li{
+list-style: none;
+display: inline;
+}
 
 .banner-pt2,
 .banner-pt3 {
