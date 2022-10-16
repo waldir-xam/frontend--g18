@@ -24,244 +24,12 @@ input[type="submit"],
   font-weight: 400;
 }
 /*FIN ESTILO DE FUENTES A TITULOS Y PARRAFOS*/
-.wrap {
-  max-width: 960px;
-  background-color: #ff1b1b;
-}
-.cabecera {
-  position: relative;
-}
-.cabecera figure img {
-  display: block;
-  width: 100%;
-}
-.cabecera h1 {
-  top: 25px;
-  font-size: 44px;
-  line-height: 74px;
-  color: #fff;
-  text-align: center;
-  position: absolute;
-  width: 100%;
-}
-.cabecera h1 h2 {
-  position: relative;
-}
-.cuadrado {
-  position: absolute;
-  width: 225px;
-  height: 80px;
-  left: 45px;
-  top: 300px;
-  background: rgba(114, 153, 254, 0.5);
-  border-radius: 10px;
-  padding: 15px;
-}
-.cuadrado h2 {
-  position: absolute;
-  color: #fff;
-  font-size: 20px;
-  line-height: 28px;
-}
-.sobremi {
-  background: #7299fe;
-  padding: 34px 40px 125px;
-  display: flex;
-  flex-direction: column;
-}
-.sobremi h2 {
-  color: #1d06a7;
-  text-align: center;
-  font-size: 36px;
-  line-height: 41px;
-  padding: 20px;
-}
-.sobremi p {
-  color: #fff;
-  font-size: 14px;
-  line-height: 24px;
-  text-align: justify;
-  margin-bottom: 20px;
-}
-.sobremi button {
-    position: relative;
-    width: 187px;
-    height: 62px;
-    background: #d16fff;
-    border-radius: 20px;
-    font-size: 22px;
-    line-height: 25px;
-    border-color: #d16fff;
-    color: #ffffff;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.skills {
-  background: #9122ff;
-  padding: 50px 50px 90px 50px;
-  width: 100%;
-}
-.skills-titulo {
-  color: #26cc4b;
-  font-size: 36px;
-  line-height: 41px;
-  text-align: center;
-  margin-bottom: 25px;
-}
-.habilidades {
-  width: 100%;
-  display: flex;
-  gap: 2.5%;
-  justify-content: space-around;
-}
-.lista-skills1,
-.lista-skills2{
-  width: 50%;
-}
-.lista-skills1,
-.lista-skills2 h2 {
-  color: #fff;
-  font-weight: 500;
-}
-.skills-cajas {
-  padding-top: 15px;
-}
-.skills-cajas h2 {
-  color: #fff;
-  font-size: 18px;
-  line-height: 21px;
-  padding-bottom: 5px;
-}
-.caja-skills {
-  position: relative;
-  width: 100%;
-  height: 20px;
-  background: #ffffff;
-  border-radius: 10px;
-  color: #ffffff;
-}
-.html,
-.css,
-.javascript,
-.vue,
-.flexbox,
-.cssgrid {
-  width: 80%;
-  height: 20px;
-  background-color: #57eff9;
-  border-radius: 10px;
-}
-.css {
-  width: 80%;
-}
-.javascript {
-  width: 60%;
-}
-.vue {
-  width: 50%;
-}
-.flexbox {
-  width: 60%;
-}
-.cssgrid {
-  width: 70%;
-}
-.portafolio {
-  background: #ffd233;
-  margin-bottom: 50px;
-}
-.portafolio h2 {
-  color: #26cc4b;
-  padding-top: 35px;
-  font-size: 36px;
-  text-align: center;
-  padding-bottom: 50px;
-}
-.img-portafolio1 {
-  text-align: center;
-  padding-bottom: 55px;
-}
-.img-portafolio1 img {
-  padding: 10px;
-  width: 200px;
-}
-.clientes {
-  background: #3f4e62;
-  padding: 50px 0px 80px 0px;
-  width: 100%;
-}
-.clientes h2 {
-  color: #adff28;
-  padding-bottom: 25px;
-  font-size: 36px;
-  text-align: center;
-}
-.img-clientes {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  }
-.img-clientes img {
-  padding: 10px;
-  height: 85px;
-}
-.contacto {
-  background: #1687a0;
-  text-align: center;
-  padding: 20px 10px 75px 10px;
-}
-.contacto h2 {
-  color: #ff1b1b;
-  padding-top: 35px;
-  font-size: 36px;
-  padding-bottom: 20px;
-}
-.form {
-  width: 100%;
-}
-input {
-  height: 59px;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 40%;
-  padding: 10px 20px 10px 20px;
-  margin: 5PX 5px 5px 5px;
-  border-radius: 10PX;
-}
-label {
-  display: none;
-}
-input[id="descripcion"] {
-  width: 81%;
-  background-color: #fff;
-  color: rgb(20, 20, 20);
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  margin-top: 20px;
-  height: 100px;
-  font-size: 12px;
-}
-  /*BOTON ENVIAR*/
-  input[type="submit"] {
-    width: 25%;
-    background-color: #233451;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  /*FIN BOTON ENVIAR*/
-
-/* ----------- RESPONSIVE TELEFONOS ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+/* RESPONSIVE CEL */
+@media only screen and (max-width: 600px) {
   .wrap {
-    max-width: 960px;
+    max-width: 600px;
     background-color: #ff1b1b;
+    margin: 0 auto;
   }
   .cabecera {
     position: relative;
@@ -400,7 +168,6 @@ input[id="descripcion"] {
   }
   .portafolio {
     background: #ffd233;
-    margin-bottom: 50px;
   }
   .portafolio h2 {
     color: #26cc4b;
@@ -431,12 +198,6 @@ input[id="descripcion"] {
     text-align: center;
     flex-direction: column;
   }
-  /*PARA NORMAL
-  .img-clientes {
-    display: flex;
-    justify-content: center;
-
-  }*/
   .img-clientes img {
     padding: 10px;
     height: 85px;
@@ -459,9 +220,9 @@ input[id="descripcion"] {
     height: 59px;
     width: 100%;
     padding: 10px 20px 10px 20px;
-    margin-top: 10PX;
-    border-radius: 10PX;
-    margin:5px 5px 5px 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
   }
 
   .input {
@@ -481,16 +242,251 @@ input[id="descripcion"] {
     height: 100px;
     font-size: 12px;
   }
-    /*BOTON ENVIAR*/
-    input[type="submit"] {
-      width: 100%;
-      background-color: #233451;
-      color: white;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      margin-top: 20px;
-      font-size: 18px;
-    }
-    /*FIN BOTON ENVIAR*/
+  /*BOTON ENVIAR*/
+  input[type="submit"] {
+    width: 100%;
+    background-color: #233451;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  /*FIN BOTON ENVIAR*/
+}
+
+/*RESPONSIVE PC*/
+@media only screen and (min-width: 601px){
+  .wrap {
+    max-width: 1400px;
+    background-color: #ff1b1b;
+    margin: 0 auto;
+  }
+  .cabecera {
+    position: relative;
+  }
+  .cabecera figure img {
+    display: block;
+    width: 100%;
+  }
+  .cabecera h1 {
+    top: 25px;
+    font-size: 44px;
+    line-height: 74px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+  }
+  .cabecera h1 h2 {
+    position: relative;
+  }
+  .cuadrado {
+    position: absolute;
+    width: 225px;
+    height: 80px;
+    left: 45px;
+    top: 490px;
+    background: rgba(114, 153, 254, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+  }
+  .cuadrado h2 {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .sobremi {
+    background: #7299fe;
+    padding: 34px 40px 125px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sobremi h2 {
+    color: #1d06a7;
+    text-align: center;
+    font-size: 36px;
+    line-height: 41px;
+    padding: 20px;
+  }
+  .sobremi p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  .sobremi button {
+    position: relative;
+    width: 187px;
+    height: 62px;
+    background: #d16fff;
+    border-radius: 20px;
+    font-size: 22px;
+    line-height: 25px;
+    border-color: #d16fff;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .skills {
+    background: #9122ff;
+    padding: 50px 50px 90px 50px;
+    width: 100%;
+  }
+  .skills-titulo {
+    color: #26cc4b;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .habilidades {
+    width: 100%;
+    display: flex;
+    gap: 2.5%;
+    justify-content: space-around;
+  }
+  .lista-skills1,
+  .lista-skills2 {
+    width: 50%;
+  }
+  .lista-skills1,
+  .lista-skills2 h2 {
+    color: #fff;
+    font-weight: 500;
+    padding-right: 10px;
+  }
+  .skills-cajas {
+    padding-top: 15px;
+  }
+  .skills-cajas h2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 5px;
+  }
+  .caja-skills {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+  }
+  .html,
+  .css,
+  .javascript,
+  .vue,
+  .flexbox,
+  .cssgrid {
+    width: 80%;
+    height: 20px;
+    background-color: #57eff9;
+    border-radius: 10px;
+  }
+  .css {
+    width: 80%;
+  }
+  .javascript {
+    width: 60%;
+  }
+  .vue {
+    width: 50%;
+  }
+  .flexbox {
+    width: 60%;
+  }
+  .cssgrid {
+    width: 70%;
+  }
+  .portafolio {
+    background: #ffd233;
+  }
+  .portafolio h2 {
+    color: #26cc4b;
+    padding-top: 35px;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .img-portafolio1 {
+    text-align: center;
+    padding-bottom: 55px;
+  }
+  .img-portafolio1 img {
+    padding: 10px;
+    width: 200px;
+  }
+  .clientes {
+    background: #3f4e62;
+    padding: 50px 0px 80px 0px;
+    width: 100%;
+  }
+  .clientes h2 {
+    color: #adff28;
+    padding-bottom: 25px;
+    font-size: 36px;
+    text-align: center;
+  }
+  .img-clientes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .img-clientes img {
+    padding: 10px;
+    height: 85px;
+  }
+  .contacto {
+    background: #1687a0;
+    text-align: center;
+    padding: 20px 10px 75px 10px;
+  }
+  .contacto h2 {
+    color: #ff1b1b;
+    padding-top: 35px;
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+  .form {
+    width: 100%;
+  }
+  input {
+    height: 59px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 40%;
+    padding: 10px 20px 10px 20px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+  }
+  label {
+    display: none;
+  }
+  input[id="descripcion"] {
+    width: 81%;
+    background-color: #fff;
+    color: rgb(20, 20, 20);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 100px;
+    font-size: 12px;
+  }
+  /*BOTON ENVIAR*/
+  input[type="submit"] {
+    width: 25%;
+    background-color: #233451;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  /*FIN BOTON ENVIAR*/
 }

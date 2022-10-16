@@ -100,7 +100,9 @@ body {
     text-align: center;
     margin-top: 75px;
   }
-  .specs div {
+  .specs-1,
+  .specs-2,
+  .specs-3 {
     border-radius: 20px;
     box-shadow: 0.1px 0.1px 1px 0.4px rgb(156, 156, 156);
     margin-left: 40px;
@@ -163,6 +165,9 @@ body {
     width: 100%;
     margin-top: -120px;
   }
+  .logo-footer {
+    display: none;
+  }
   .footer-pt1 {
     padding-top: 100px;
   }
@@ -217,8 +222,14 @@ body {
     font-weight: 400;
   }
 }
-/*BREAKPOINT PC+*/
+/*******************BREAKPOINT PC*************************/
 @media only screen and (min-width: 601px) {
+  .wrap-total {
+    max-width: 1200px;
+    background-color: transparent;
+    justify-content: center;
+    margin: 0 auto;
+  }
   body {
     margin: 0;
     padding: 0;
@@ -318,26 +329,50 @@ body {
   .specs {
     display: flex;
     flex-direction: column;
-    justify-items: flex-start;
     text-align: center;
     margin-top: 75px;
     width: 100%;
   }
-  .specs div {
-    border-radius: 20px;
-    box-shadow: 0.1px 0.1px 1px 0.4px rgb(156, 156, 156);
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 25px;
-    margin-top: 25px;
+  .specs-1,
+  .specs-2,
+  .specs-3 {
     display: flex;
+    border-radius: 20px;
+    box-shadow: 0.1px 0.1px 1px 0.4px rgb(181, 181, 181);
+    padding: 50px 25px 50px 25px;
+    margin: 25px 75px 25px 75px;
+  }
+  .specs-text1,.specs-text2,.specs-text3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .specs-1 h2 {
+    order: 1;
+    align-self: ;
+  }
+  .specs-1 p {
+    order: 2;
+  }
+  .specs-1 img {
+    order: 3;
+  }
+  .specs-3 h2 {
+    order: 1;
+    align-self: ;
+  }
+  .specs-3 p {
+    order: 2;
+  }
+  .specs-3 img {
+    order: 3;
   }
   .titulo-parrafo {
     display: flex;
     width: 60%;
   }
   .specs div h2 {
-    order: 2;
     font-size: 16px;
     color: #000;
     padding-left: 75px;
@@ -352,9 +387,7 @@ body {
     margin-top: 25px;
     order: 1;
   }
-  .specs div img {
-    order: 1;
-  }
+
   .specs img {
     width: 300px;
     text-align: center;
