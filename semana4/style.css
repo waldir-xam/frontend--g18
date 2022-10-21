@@ -1,0 +1,19 @@
+@import'./css/modules/variables.css';
+@import'./css/modules/section.css';
+@import'./css/modules/animation.css';
+
+*{
+}
+
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+@media screen and (min-width: 1024px) {
+
+}
+

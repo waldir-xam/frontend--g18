@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="./css/modules/section.css" rel="stylesheet" />
+    <link href="./css/modules/variables.css" rel="stylesheet" />
+    <link href="./css/modules/animation.css" rel="stylesheet" />
+    <title>Codigo - Reto grupal 2</title>
+  </head>
+  <body>
+    <main class="main">
+      <ul class="comments-list" id="comments-list">
+        <li>
+          <div class="main-comment-content">
+            <div class="comment-score">
+              <img src="./src/icon-plus.svg" />
+
+              <h2>12</h2>
+              <img src="./src/icon-minus.svg" />
+            </div>
+            <div class="comment-score-mobile">
+              <img class="icon-plus" src="./src/icon-plus.svg" />
+
+              <h2>4</h2>
+              <img class="icon-minus" src="./src/icon-minus.svg" />
+            </div>
+            <div class="comment-content">
+              <div class="comment-header">
+                <div class="comment-avatar">
+                  <img src="./src/avatars/image-amyrobson.webp" />
+                </div>
+                <h2>amyrobson</h2>
+                <h3>1 month ago</h3>
+                <h4><img src="./src/icon-reply.svg" />Reply</h4>
+              </div>
+              <div>
+                <p class="texto-comentario">
+                  Impressive! Thought it semms the dra feature could be
+                  improved. But overall it looks incredible. You've nailed the
+                  design and the responsiveness at various breakpoints works
+                  really well.
+                </p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="main-comment-content">
+            <div class="comment-score">
+              <img src="./src/icon-plus.svg" />
+
+              <h2>5</h2>
+              <img src="./src/icon-minus.svg" />
+            </div>
+            <div class="comment-score-mobile">
+              <img class="icon-plus" src="./src/icon-plus.svg" />
+
+              <h2>4</h2>
+              <img class="icon-minus" src="./src/icon-minus.svg" />
+            </div>
+            <div class="comment-content">
+              <div class="comment-header">
+                <div class="comment-avatar">
+                  <img src="./src/avatars/image-maxblagun.webp" />
+                </div>
+                <h2>maxlagun</h2>
+                <h3>2 weeks ago</h3>
+                <h4><img src="./src/icon-reply.svg" />Reply</h4>
+              </div>
+              <div>
+                <p class="texto-comentario">
+                  Woah, your project looks awesome! how long have you been
+                  coding for? I'm still new, but think i want to dive into react
+                  as well soon. Perhaps you can give me an insight on where i
+                  can learn React? Thanks!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--INICIO SUBCOMENTARIO 1-->
+          <div class="comments-list reply-list">
+            <div class="main-comment-content">
+              <div class="comment-score">
+                <img src="./src/icon-plus.svg" />
+
+                <h2>4</h2>
+                <img src="./src/icon-minus.svg" />
+              </div>
+              <div class="comment-score-mobile">
+                <img src="./src/icon-plus.svg" />
+
+                <h2>4</h2>
+                <img src="./src/icon-minus.svg" />
+              </div>
+
+              <div class="comment-content">
+                <div class="comment-header">
+                  <div class="comment-avatar">
+                    <img src="./src/avatars/image-ramsesmiron.webp" />
+                  </div>
+                  <h2>ramsesmiron</h2>
+                  <h3>2 weeks ago</h3>
+                  <h4><img src="./src/icon-reply.svg" />Reply</h4>
+                </div>
+                <div>
+                  <p class="texto-comentario">
+                    <a class="user-tag">@maxlabgub</a>
+
+                    Woah, your project looks awesome! how long have you been
+                    coding for? I'm still new, but think i want to dive into
+                    react as well soon. Perhaps you can give me an insight on
+                    where i can learn React? Thanks!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--FIN SUBCOMENTARIO 1 -->
+          <!--INICIO SUBCOMENTARIO 2-->
+          <div class="comments-list reply-list">
+            <div class="main-comment-content">
+              <div class="comment-score">
+                <img src="./src/icon-plus.svg" />
+
+                <h2>2</h2>
+                <img src="./src/icon-minus.svg" />
+              </div>
+              <div class="comment-score-mobile">
+                <img class="icon-plus" src="./src/icon-plus.svg" />
+
+                <h2>4</h2>
+                <img class="icon-minus" src="./src/icon-minus.svg" />
+              </div>
+
+              <div class="comment-content">
+                <div class="comment-header">
+                  <div class="comment-avatar">
+                    <img src="./src/avatars/image-juliusomo.webp" />
+                  </div>
+                  <h2>juliusomo</h2>
+                  <h5 class="myprofile">you</h5>
+                  <h3>2 weeks ago</h3>
+                  <p id="delete" class="delete"><img src="./src/icon-delete.svg" />Delete</>
+                  <h4><img src="./src/icon-edit.svg" />Edit</h4>
+                </div>
+                <div>
+                  <p class="texto-comentario">
+                    <a class="user-tag">@ramsesmiron</a>
+                    Impressive! Thought it semms the dra feature could be
+                    improved. But overall it looks incredible. You've nailed the
+                    design and the responsiveness at various breakpoints works
+                    really well.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--FIN SUBCOMENTARIO 2-->
+        </li>
+      </ul>
+      <!--FORMULARIO DE RESPUESTA-->
+      <form action="" class="form">
+        <figure>
+          <img src="./src/avatars/image-juliusomo.webp" alt="" width="48" />
+        </figure>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="5"
+          placeholder="Add a comment..."
+        ></textarea>
+        <button>SEND</button>
+      </form>
+    </main>
+  </body>
+</html>

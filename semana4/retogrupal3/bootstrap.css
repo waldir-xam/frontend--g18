@@ -1,0 +1,288 @@
+/*BANNER*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+h2{
+  color: var(--color-title-section);
+  font-family: 'helvetica';
+  font-weight: 700;
+}
+h5{
+  color: var();
+  font-family: helvetica;
+  font-weight: 700;
+  font-size: 14;
+}
+p{
+  color: var(--color-paragraph);
+  text-align: justify;
+  font-size: 16px;
+}
+
+.fa-bookmark,.fa-share-nodes{
+  color: var(--color-title-principal-arti);
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.circle h2 {
+    color: black;
+    font-size: 20px;
+}
+
+header {
+    width: 80rem;
+    margin: 20px auto;
+}
+
+.circle {
+    height: 25px;
+    border-radius: 200%;
+    background-color: #0870e6;
+    position: relative;
+    left: 0;
+
+
+}
+
+.circle1 {
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: #fff;
+    position: relative;
+    left: 11px ;
+    width: 20px;
+}
+.circle1 h2{
+    margin-left: 1px;
+}
+
+.ahome {
+    margin-left: 50px;
+}
+
+
+section {
+    
+    width: 80rem;
+    margin: 10px auto 10px;
+}
+
+.box-banner {
+    background-image: url(./src/banner.png);
+    padding: 4rem;
+    
+}
+
+.img_boxbanner {
+    background-image: url(./src/Vector.png);
+}
+
+.img_boxbanner h1, .img_boxbanner p {
+    color: #fff;
+    text-align: center;
+}
+
+.img_boxbanner p {
+    margin: 1rem 10rem 0rem;
+}
+
+@import url("./variables.css");
+
+/*.container{
+  width: 80%;
+  margin: 0 auto;
+ }
+*/
+ .title-article{ 
+  color: var(--color-title-principal-arti);
+  font-weight: 700;
+ }
+
+ .field-one { 
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+ }
+
+.right{ 
+  display: flex;
+  flex-direction: column;
+  width: 73%;
+}
+
+
+.second-part-rigth { 
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.image-section{ 
+  width: 328.64px;
+  height: 200px;
+  padding-right: 50px;
+}
+
+.title-rigth { 
+  margin-top: 10px;
+  color: var(--color-title-article);
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.title-rigth-date { 
+  margin-bottom: 10px;
+  color: var(--color-title-article);
+
+}
+
+.text { 
+  color:var(--color-paragraph);
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 4%;
+}
+
+
+.icons{ 
+  position: relative;
+    top: 30px;
+    right: 30px;
+}
+
+.img-icon-one { 
+  margin-right: 20px;
+}
+
+.field-two { 
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.field-three { 
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.field-four { 
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.field-five { 
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.container .arrow{ 
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 30px auto;
+  font-weight: 600;
+  margin-top: 50px;
+ 
+}
+
+
+.arrow-right { 
+  position: relative;
+}
+
+/* footer */
+.footer{
+    background: var(--bgfooter);
+    font-weight: 300;
+    padding-bottom: 4rem;
+    margin-top: 15rem;
+    color: var(--textfooter);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-main{
+    display: flex;
+    align-items: center;
+}
+
+.footer  .content-footer{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-text{
+    padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid ;
+}
+
+.content-footer  .logo2{
+      margin-left: -1.9rem;      
+}
+.content-footer  .logo3{
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-top: 0.6rem;
+}
+
+#autor{
+    text-align: start;
+    margin-left: 6rem;
+    font-size: 13px;
+}
+
+.col-footer{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+}
+
+.col-footer-p{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-footer-p button{
+    padding-inline: 3.8rem;
+    padding-block: 0.88rem;
+    background-color: var(--btnfooter); 
+    border: 0;
+    color: var(--textfooter);
+    margin-top: 2rem;
+    width: 70%;
+}
+.col-footer-p div{
+     width: 380px;
+     font-weight: 100;
+}
+
+.col-footer div {
+    display: flex;
+    align-items:baseline;
+    gap:15px;
+    margin-bottom: 20px;
+}

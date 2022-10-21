@@ -1,0 +1,43 @@
+:root {
+    --primary-theme-color: #5259b1;
+    --secondary-theme-color: #f56e72;
+    --third-theme-color: #cccccc59;
+    --fourth-theme-color: #a7aad4;
+    --fifth-theme-color: #fff;
+
+    --primary-text-color: #898989;
+    --primary-highlight-color: FBBC04;
+    --primary-font-family:roboto;
+    --padding-section: 1.5rem;
+    --padding-container: 1rem;
+    --max-width-container: 640px;
+  }
+
+
+  /**
+ * Oscuro: #283035
+ * Azul: #03658c
+ * Detalle: #c7cacb
+ * Fondo: #dee1e3
+ ----------------------------------*/
+ * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  color: #03658c;
+  text-decoration: none;
+}
+
+ul {
+ list-style-type: none;
+}
+
+body {
+ font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
+ background: #dee1e3;
+}
