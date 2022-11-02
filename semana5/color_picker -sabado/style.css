@@ -1,0 +1,19 @@
+.app{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#color{
+    border-radius: 10px;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}

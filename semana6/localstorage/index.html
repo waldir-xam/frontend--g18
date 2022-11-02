@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>LocalStorage</title>
+  </head>
+  <body>
+    <section id="section-login">
+      <h1>Estamos trabajando local storage</h1>
+      <form action="">
+        <div>
+          <input type="text" name="email" placeholder="ingresa tu email" />
+        </div>
+        <div>
+          <input
+            type="password"
+            name="password"
+            placeholder="ingresa tu contrasena"
+          />
+        </div>
+        <div>
+          <button type="submit" id="btn-login">Iniciar sesion</button>
+        </div>
+      </form>
+    </section>
+    <section id="user-logged">
+      <h1 id="email"></h1>
+      <h4 id="password"></h4>
+      <button id="logout">Cerrar Sesion</button>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
